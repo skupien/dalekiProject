@@ -1,3 +1,12 @@
+# Daleki Project
+Developed by:
+- Krzysztof Widenka, [@krzwid](https://github.com/krzwid)
+- Patryk Skupień, [@skupien](https://github.com/skupien)
+- Natalia Brzozowska, [@brzozia](https://github.com/brzozia)
+
+This is a project made for object oriented programming classes in a three-person team.
+Project was developed on bitbucket and this repository is a copy of completed project thus it lacks commit and branches history.
+
 # Daleks controller
 
 <i>Daleks controller</i> jest grą, w której biorą udział dwa rodzaje postaci:<br>
