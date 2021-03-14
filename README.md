@@ -7,26 +7,27 @@ Developed by:
 This is a project made for object oriented programming classes in a three-person team.
 Project was developed on bitbucket and this repository is a copy of completed project thus it lacks commit and branches history.
 
-# Daleks controller
+# Daleks Game
 
-<i>Daleks controller</i> jest grą, w której biorą udział dwa rodzaje postaci:<br>
-    doktor - jest głównym bohaterem i postacią, którą sterujemy <br>
-    daleki - są potworkami, które chcą zjeść naszego doktorka - z każdym naszym ruchem daleki przybliżają się do nas coraz bardziej...
-    <br><br>
-Aby pozbyć sie daleków z planszy i wygrać grę trzeba tak poruszać doktorkiem, żeby zderzać daleki ze sobą lub z martwymi dalekami. Martwe daleki (skamieliny) powstają właśnie podczas zderzania daleków ze soba. Są jak bardzo ostre kamienie na planszy - nie poruszają się za doktorkiem ale gry doktorek na nie wejdzie to skaleczy się, wykrwawi i umrze. A wtedy nastąpi koniec gry :(.
+<b>Daleks Game</b> is a turn-based game where you are controlling a Doctor.  On the map you can spot three types of objects: <br>
+<i>Doctor</i> – this is your character, <br>
+<i>Daleks</i> – enemies that try to eat our doctor. Every time the doctor moves, each Dalek moves towards him, <br>
+<i>Destroyed Daleks</i> – whenever Dalek is destroyed, he becomes an immovable object. Doctor and Daleks are destroyed if they bump into one.
 <br><br>
-Weź los doktorka w swoje ręce! Pokonaj potworne daleki i zdobądź chwałę! Nie daj doktorkowi zginąć!
+Objective is to get rid of all alive Daleks from map. To achieve this, you must move the doctor in such a way, that two Daleks will go to the same tile, thus creating a destroyed Dalek.<br>
+Doctor can move in 8 directions and also use one of three power-ups – teleportation to random spot, bomb that destroys Daleks on eight adjacent tiles and undoing a previous move. You can have only up to three of each powerup and you get one of each for completing a map.<br>
+Every time you complete a map, your score increases and the game restarts with one more Dalek on a map.
 <br><br> 
-STEROWANIE:<br>
-Aby poruszać doktorkiem po planszy wykorzystaj klawisze swojej klawiatury numerycznej lub skorzystaj z przycisków obok planszy.<br>
-Przyciski klawiatury poruszają doktorka w odpowiednich kierunkach:<br><br>
+CONTROLS:<br>
+You can use movement buttons appearing on the right side of a window or use numerical keypad in a corresponding way:<br>
 7  8  9 <br>
 4  _  6 <br>
-1  2  3 <br><br>
-Jeśli chcesz przeteleportować doktorka użyj klawisza "5" lub "t" na swojej klawiaturze. Pamiętaj, że masz tylko 3 teleportacje na grę! Po zakończonej grze możesz zresetować planszę i zagrać jeszcze raz - użyj do tego przycisku "r".<br>
-Za każdy ruch, w którym nie zginisz zwiększasz swojego scora ;).
+1  2  3 <br>
+Powerup controls:<br>
+“5” or “t” teleports you,<br>
+“b” uses a bomb,<br>
+“h” allows you to undo move,<br>
+“r” resets a game after losing or winning.<br>
 <br><br>
-Docs link: https://docs.google.com/document/d/13rMfs7QGNSwKgsZjAkUUq26ZmsYeGK3iuUSnGvoJv-Q/edit?ts=5fbbc8cc
-
-### Przykładowa rozgrywka
+### Sample gameplay:
 ![](docs/daleksgame.gif)
